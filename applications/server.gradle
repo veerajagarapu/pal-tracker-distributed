@@ -28,3 +28,7 @@ bootRun.environment([
         "EUREKA_CLIENT_OAUTH2_CLIENTID":"eureka-client",
 		"REGISTRATION_SERVER_ENDPOINT": "http://registration-server"
 ])
+
+test.environment([
+        "REGISTRATION_SERVER_ENDPOINT": "http://registration-server"
+])
