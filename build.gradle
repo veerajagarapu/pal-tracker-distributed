@@ -36,7 +36,6 @@ apply plugin: DependenciesGraphPlugin
 
 subprojects {
     group "io.pivotal.pal.tracker"
-
     apply plugin: "java"
     defaultTasks "clean", "build"
 
